@@ -134,6 +134,16 @@ extern void Sensor_process(void);
 extern bool Sensor_sendMsg(Smsgs_cmdIds_t type, ApiMac_sAddr_t *pDstAddr,
                     bool rxOnIdle, uint16_t len, uint8_t *pData);
 
+// UCF Team 8 addition
+/*!
+ * @brief   Send laser hit notification msg
+ *
+ * @param  player = uint8_t player ID for futer use
+ *
+ * @return  void
+ */
+extern void Sensor_sendLaserHitEvt(uint8_t player);
+
 #ifdef __cplusplus
 }
 #endif

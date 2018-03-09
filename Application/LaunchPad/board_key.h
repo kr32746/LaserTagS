@@ -1,3 +1,11 @@
+
+/* Modified for school project
+   Laser skeet
+   Senior project, Group 8
+
+   Modifications by KR
+*/
+
 /******************************************************************************
 
  @file board_key.h
@@ -88,6 +96,10 @@ extern "C"
 #define KEY_LEFT              0x08
 /*! Right Key ID */
 #define KEY_RIGHT             0x10
+
+// UCF Team 8 addition
+// laser detect input
+#define KEY_LASER             0x20
 
 /*! Debounce timeout in milliseconds */
 #define KEY_DEBOUNCE_TIMEOUT  200

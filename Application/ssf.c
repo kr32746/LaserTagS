@@ -130,6 +130,8 @@
 /* NV Item ID - OAD information */
 #define SSF_NV_OAD_ID 0x0007
 
+#define HIT_FLASH_TIMEOUT_VALUE 3000
+
 /* Maximum number of black list entries */
 #define SSF_MAX_BLACKLIST_ENTRIES 10
 
@@ -212,6 +214,10 @@ static ICall_Semaphore sensorSem;
 static Clock_Struct readingClkStruct;
 static Clock_Handle readingClkHandle;
 
+// UCF Team 8 additions
+static Clock_Struct hitFlashClkStruct;
+static Clock_Handle hitFlashClkHandle;
+
 /* Clock/timer resources for JDLLC */
 /* trickle timer */
 STATIC Clock_Struct tricklePASClkStruct;
@@ -262,6 +268,9 @@ static uint32_t prevTicks;
 /******************************************************************************
  Local function prototypes
  *****************************************************************************/
+
+//UCF Team 8 addition
+static void processHitFlashCallback(UArg a0);
 
 static void processReadingTimeoutCallback(UArg a0);
 static void processKeyChangeCallback(uint8_t keysPressed);
@@ -394,6 +403,8 @@ void Ssf_init(void *sem)
 #endif /* !POWER_MEAS */
 }
 
+
+// UCF Team 8 changes made to this function for project
 /*!
  The application must call this function periodically to
  process any events that this module needs to process.
@@ -433,65 +444,38 @@ void Ssf_processEvents(void)
 
         }
 
-        else if(keys & KEY_RIGHT)
+        else if((keys & KEY_LEFT) && (started == false))
         {
-
-            if(started == false)
-            {
 #ifndef POWER_MEAS
                 LCD_WRITE_STRING("Starting...", 2);
 #endif
-
                 /* Tell the sensor to start */
                 Util_setEvent(&Sensor_events, SENSOR_START_EVT);
-            }
-            else
-            {
-#ifdef FEATURE_UBLE
-                BleAdv_AdertiserType curType = BleAdv_getAdvertiserType();
-                /* If curType is Url, then we cycle through the urls we have */
-                if (curType == BleAdv_AdertiserUrl)
-                {
-                    /* If we are currently advertising our last url,
-                     *  then cycle back to the first url and switch to the next AdvertiserType
-                     */
-                    if (eddystoneUrlIdx < NUM_EDDYSTONE_URLS)
-                    {
-                        BleAdv_updateUrl(urls[eddystoneUrlIdx]);
-#ifndef POWER_MEAS
-                        LCD_WRITE_STRING_VALUE("Updating Url number ", eddystoneUrlIdx, 10, 5);
-#endif /* !POWER_MEAS */
-                        eddystoneUrlIdx++;
-                    }
-                    /*
-                     * We have reached the end of our url list, start back at the front and choose the
-                     *  next advertiser Type.
-                     */
-                    else
-                    {
-                        eddystoneUrlIdx = 0;
-                        curType = (BleAdv_AdertiserType)((curType + 1) % BleAdv_AdertiserTypeEnd);
-                    }
-                }
-                /*
-                 * choose the next Advertiser Type
-                 */
-                else
-                {
-                    curType = (BleAdv_AdertiserType)((curType + 1) % BleAdv_AdertiserTypeEnd);
-                }
-
-                /*
-                 * Only update the Advertiser Type if it has been changed above.
-                 */
-                if (curType != advertisementType)
-                {
-                    BleAdv_setAdvertiserType(curType);
-                    advertisementType = curType;
-                }
-#endif /* FEATURE_UBLE */
-            }
         }
+
+        // if laser hit sensor active
+        // using key right for test, key laser for detection circuit input
+        else if((keys & KEY_RIGHT) || (keys & KEY_LASER)  ) //or laser key
+        {
+            // if hit is already processing don't process again
+            if(Timer_isActive(&hitFlashClkStruct) != true)
+            {
+                // send action control pulse
+                Board_Led_control(board_led_type_ACTION, board_led_state_BLINK);
+                // Set green led flashing
+                Board_Led_control(board_led_type_LED2, board_led_state_BLINKING);
+                // start flashing timer
+                Timer_start(&hitFlashClkStruct);
+
+                // send hit message
+                Sensor_sendLaserHitEvt((uint8_t) 1); // param = player number for future use
+            }
+
+        }
+
+// UCF Team 8 remove existing not needed
+// FEATURE_UBLE support code removed
+
 
         /* Clear the key press indication */
         keys = 0;
@@ -827,6 +811,8 @@ void Ssf_trackingUpdate(ApiMac_sAddr_t *pSrcAddr)
 #endif
 }
 
+// UCF Team 8
+// change to blink
 /*!
  The application calls this function to indicate sensor data.
 
@@ -838,6 +824,23 @@ void Ssf_sensorReadingUpdate(Smsgs_sensorMsg_t *pMsg)
     Board_Led_toggle(board_led_type_LED2);
 #endif
 }
+
+// UCF Team 8 addition
+/*!
+ Initialize the hit flash duration clock.
+
+ Public function defined in ssf.h
+ */
+void Ssf_initializeHitFlashDurationClock(void)
+{
+    hitFlashClkHandle = Timer_construct(&hitFlashClkStruct,
+                                        processHitFlashCallback,
+                                        HIT_FLASH_TIMEOUT_VALUE,
+                                        0,
+                                        false,
+                                        0);
+}
+
 
 /*!
  Initialize the reading clock.
@@ -854,6 +857,9 @@ void Ssf_initializeReadingClock(void)
                                         false,
                                         0);
 }
+
+
+
 
 /*!
  Set the reading clock.
@@ -1562,6 +1568,24 @@ void Ssf_PostAppSem(void)
 /******************************************************************************
  Local Functions
  *****************************************************************************/
+
+// UCF Team 8 addition
+/*!
+ * @brief   hit flash notification timeout handler function.
+ *
+ * @param   a0 - ignored
+ */
+static void processHitFlashCallback(UArg a0)
+{
+    (void)a0; /* Parameter is not used */
+
+    // this may be to high priority may want to change to event
+    Board_Led_control(board_led_type_LED2, board_led_state_OFF);
+
+}
+
+
+
 
 /*!
  * @brief   Reading timeout handler function.

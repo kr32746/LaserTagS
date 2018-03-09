@@ -1,3 +1,10 @@
+
+/* Modified for school project
+   Laser skeet
+   Senior project, Group 8
+
+   Modifications by KR
+*/
 /******************************************************************************
 
  @file board_key.c
@@ -74,9 +81,11 @@ static Board_Key_keysPressedCB_t appKeyChangeHandler = NULL;
  Create the MSA KEY pin table. This will override the key attributes in
  BoardGpioInitTable[].
  */
+// modified - 01/2018 - add input for laser sensor
 static PIN_Config keyPinTable[] = {
       Board_BUTTON0 | PIN_INPUT_EN | PIN_PULLUP | PIN_IRQ_NEGEDGE,
       Board_BUTTON1 | PIN_INPUT_EN | PIN_PULLUP | PIN_IRQ_NEGEDGE,
+      Board_DIO25_ANALOG   | PIN_INPUT_EN | PIN_NOPULL | PIN_IRQ_POSEDGE,
       PIN_TERMINATE /* Terminate list */
     };
 
@@ -145,6 +154,12 @@ static void board_key_keyFxn(PIN_Handle keyPinHandle, PIN_Id keyPinId)
         keysPressed |= KEY_RIGHT;
     }
 
+    // UCF Team 8 addition
+    else if(keyPinId == Board_DIO25_ANALOG)
+    {
+        keysPressed |= KEY_LASER;
+    }
+
     if(Timer_isActive(&keyChangeClock) != true)
     {
         Timer_start(&keyChangeClock);
@@ -185,6 +200,12 @@ static uint8_t board_key_getValues(void)
     if(PIN_getInputValue(Board_BUTTON1) == false)
     {
         keys |= KEY_RIGHT;
+    }
+
+    // UCF Team 8 addition
+    if(PIN_getInputValue(Board_DIO25_ANALOG) == true)
+    {
+        keys |= KEY_LASER;
     }
 
     return(keys);

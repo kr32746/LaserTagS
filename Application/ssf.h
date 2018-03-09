@@ -63,8 +63,7 @@ extern "C"
  *****************************************************************************/
 
 /* Structure of validated config information */
-typedef struct
-{
+typedef struct{
     /* Frame Control field of the Config Response message */
     uint16_t frameControl;
     /* Reporting Interval field of the Config Response message */
@@ -167,6 +166,13 @@ extern void Ssf_stateChangeUpdate(Jdllc_states_t state);
  * @brief       Initialize the reading clock.
  */
 extern void Ssf_initializeReadingClock(void);
+
+// UCF Team 8 addition
+/*!
+ * @brief       Initialize the hit flashing duration clock.
+ */
+extern void Ssf_initializeHitFlashDurationClock(void);
+
 
 /*!
  * @brief       set the reading clock.

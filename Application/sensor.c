@@ -557,6 +557,7 @@ static void initializeClocks(void)
 {
     /* Initialize the reading clock */
     Ssf_initializeReadingClock();
+    Ssf_initializeHitFlashDurationClock();
 }
 
 /*!
@@ -759,6 +760,23 @@ static uint8_t getMsduHandle(Smsgs_cmdIds_t msgType)
 
     return (msduHandle);
 }
+
+
+// UCF SD Team 8 project changes/additions
+/*!
+ @brief  Build and send fixed size laser hit notification message
+ */
+void Sensor_sendLaserHitEvt(uint8_t player)
+{
+    uint8_t cmdBytes[SMSGS_LASER_HIT_MSG_LEN];
+    cmdBytes[0] = (uint8_t) Smsgs_cmdIds_laserHitMsg;
+    cmdBytes[1] = player; // player ID - possible future use for multiple players
+    Sensor_sendMsg(Smsgs_cmdIds_laserHitMsg, &collectorAddr, true,
+                   SMSGS_LASER_HIT_MSG_LEN, cmdBytes);
+
+}
+
+
 
 /*!
  @brief  Build and send fixed size ramp data

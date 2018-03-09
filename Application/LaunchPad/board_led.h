@@ -79,6 +79,7 @@ typedef enum
 {
     board_led_type_LED1,
     board_led_type_LED2,
+    board_led_type_ACTION,
 #if !defined(CC13XX_LAUNCHXL) && !defined(CC26XX_LAUNCHXL) && !defined(CC26X2R1_LAUNCHXL) && !defined(CC13X2R1_LAUNCHXL)
     /* The Launchpads only have 2 LEDs */
     board_led_type_LED3,

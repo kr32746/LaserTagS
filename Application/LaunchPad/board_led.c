@@ -103,8 +103,10 @@ static PIN_Config ledPinTable[] =
 {
     Board_LED0 | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL
             | PIN_DRVSTR_MAX, /* LED1 initially off */
-    Board_LED1 | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL
+    Board_GLED | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL
             | PIN_DRVSTR_MAX, /* LED2 initially off */
+    Board_DIO21 | PIN_GPIO_OUTPUT_EN | PIN_GPIO_LOW | PIN_PUSHPULL
+            | PIN_DRVSTR_MAX, /* Action initially off */
 #if defined(CC13XX_LAUNCHXL) || defined(CC13X2R1_LAUNCHXL)
 #if !defined(FREQ_2_4G)
     Board_DIO_RFSW   | PIN_GPIO_OUTPUT_EN | PIN_GPIO_HIGH | PIN_PUSHPULL | PIN_DRVSTR_MAX,   /* RF SW Switch defaults to sub-1GHz path*/
@@ -359,6 +361,11 @@ static unsigned int board_led_convertLedType(board_led_type led)
     {
         return(Board_LED0);
     }
+    else if (led == board_led_type_ACTION)
+    {
+        return(Board_DIO21);
+    }
+
 #if defined(CC13XX_LAUNCHXL) || defined(CC13X2R1_LAUNCHXL)
     else if (led == board_rfSwitch_select)
     {
@@ -373,7 +380,7 @@ static unsigned int board_led_convertLedType(board_led_type led)
     }
 #endif
 #endif
-    return(Board_LED1);
+    return(Board_GLED);
 }
 
 /*!

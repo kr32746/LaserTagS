@@ -199,6 +199,8 @@ The <b>Sensor Ramp Data Message</b> is defined as:
 /*! Toggle Led Request message length (over-the-air length) */
 #define SMSGS_TOGGLE_LED_RESPONSE_MSG_LEN 2
 
+#define SMSGS_LASER_HIT_MSG_LEN 2
+
 /*!
  Message IDs for Sensor data messages.  When sent over-the-air in a message,
  this field is one byte.
@@ -224,7 +226,10 @@ The <b>Sensor Ramp Data Message</b> is defined as:
     /*! OAD mesages, sent/received from both collector and sensor */
     Smsgs_cmdIds_oad = 9,
     /* Broadcast control msg, sent from the collector to the sensor */
-    Smgs_cmdIds_broadcastCtrlMsg = 10
+    Smgs_cmdIds_broadcastCtrlMsg = 10,
+    // UCF SD Team 8 project changes/additions
+    // laser hit message
+    Smsgs_cmdIds_laserHitMsg = 11
  } Smsgs_cmdIds_t;
 
 /*!
