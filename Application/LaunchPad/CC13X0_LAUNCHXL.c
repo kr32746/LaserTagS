@@ -438,7 +438,7 @@ const DisplayUart_HWAttrs displayUartHWAttrs = {
 DisplaySharp_Object displaySharpObject;
 
 #ifndef BOARD_DISPLAY_SHARP_SIZE
-#define BOARD_DISPLAY_SHARP_SIZE    128 // 96->96x96 is the most common board, alternative is 128->128x128.
+#define BOARD_DISPLAY_SHARP_SIZE    96 // 96->96x96 is the most common board, alternative is 128->128x128.
 #endif
 static uint8_t sharpDisplayBuf[BOARD_DISPLAY_SHARP_SIZE * BOARD_DISPLAY_SHARP_SIZE / 8];
 

@@ -1,11 +1,11 @@
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    1
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    1
 
        1                    ;******************************************************************************
        2                    ;* TI ARM C/C++ Codegen                                        PC v16.9.4.LTS *
-       3                    ;* Date/Time created: Mon Mar 05 22:11:04 2018                                *
+       3                    ;* Date/Time created: Tue Apr 03 11:15:45 2018                                *
        4                    ;******************************************************************************
        5                            .compiler_opts --abi=eabi --arm_vmrs_si_workaround=off --code_state=16 --diag_wrap=off --embed
        6 00000000                   .thumb
@@ -58,10 +58,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
       53                            .dwattr $C$DW$5, DW_AT_location[DW_OP_addr uartPrintf_head]
       54                            .dwattr $C$DW$5, DW_AT_decl_file("../Application/uart_printf.c")
       55                            .dwattr $C$DW$5, DW_AT_decl_line(0x43)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    2
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    2
 
       56                            .dwattr $C$DW$5, DW_AT_decl_column(0x11)
       57                    
@@ -118,10 +118,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      108                            .dwattr $C$DW$9, DW_AT_decl_column(0x06)
      109                            .dwattr $C$DW$9, DW_AT_TI_max_frame_size(0x08)
      110                            .dwpsn  file "../Application/uart_printf.c",line 112,column 1,is_stmt,address UartPrintf_putch
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    3
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    3
 
      111                    
      112                            .dwfde $C$DW$CIE, UartPrintf_putch
@@ -178,10 +178,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      163 0000001a B280              UXTH      A1, A1                ; [DPU_3_PIPE] |126|  ; [ORIG 16-BIT INS]
      164 0000001c 6F80F5B0          CMP       A1, #1024             ; [DPU_3_PIPE] |126|  ; [KEEP 32-BIT INS]
      165 00000020 BFA8              IT        GE                    ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    4
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    4
 
      166                            .dwpsn  file "../Application/uart_printf.c",line 128,column 9,is_stmt,isa 1
      167 00000022 2000              MOVGE     A1, #0                ; [DPU_3_PIPE] |128|  ; [ORIG 16-BIT INS]
@@ -238,10 +238,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      218                    ;*   Local Frame Size  : 0 Args + 0 Auto + 0 Save = 0 byte                   *
      219                    ;*****************************************************************************
      220                    UartPrintf_init:
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    5
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    5
 
      221                    ;* --------------------------------------------------------------------------*
      222                    ;* A1    assigned to handle
@@ -298,10 +298,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      273                    ;*   Regs Used         : A1,A2,A3,A4,V1,V2,V4,V9,SP,LR,SR                    *
      274                    ;*   Local Frame Size  : 0 Args + 0 Auto + 16 Save = 16 byte                 *
      275                    ;*****************************************************************************
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    6
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    6
 
      276                    UartPrintf_flush:
      277                    ;* --------------------------------------------------------------------------*
@@ -358,10 +358,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      328 0000001a 1AA9              SUBGT     A2, V2, A3            ; [DPU_3_PIPE] |165|  ; [ORIG 16-BIT INS]
      329 0000001c 6180F501          ADDGT     A2, A2, #1024         ; [DPU_3_PIPE] |165|  ; [KEEP 32-BIT INS]
      330 00000020 1AA9              SUBLE     A2, V2, A3            ; [DPU_3_PIPE] |165|  ; [ORIG 16-BIT INS]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    7
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    7
 
      331 00000022 B28F              UXTH      V4, A2                ; [DPU_3_PIPE] |165|  ; [ORIG 16-BIT INS]
      332 00000024 B18F              CBZ       V4, ||$C$L4||         ; []  ; [ORIG 16-BIT INS]
@@ -418,10 +418,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      383 0000004c BDB0              POP       {V1, V2, V4, PC}      ; [DPU_3_PIPE]  ; [ORIG 16-BIT INS]
      384                            .dwcfi  cfa_offset, 0
      385                            ; BRANCH OCCURS                  ; [] 
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    8
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    8
 
      386                            .dwattr $C$DW$17, DW_AT_TI_end_file("../Application/uart_printf.c")
      387                            .dwattr $C$DW$17, DW_AT_TI_end_line(0xba)
@@ -478,10 +478,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      437                            .dwattr $C$DW$24, DW_AT_name("PIN_SUCCESS")
      438                            .dwattr $C$DW$24, DW_AT_const_value(0x00)
      439                            .dwattr $C$DW$24, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/PI
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE    9
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE    9
 
      440                            .dwattr $C$DW$24, DW_AT_decl_line(0x2b2)
      441                            .dwattr $C$DW$24, DW_AT_decl_column(0x05)
@@ -538,10 +538,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      492                            .dwattr $C$DW$29, DW_AT_name("FlashGetSize")
      493                            .dwattr $C$DW$29, DW_AT_TI_symbol_name("FlashGetSize")
      494                            .dwattr $C$DW$29, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   10
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   10
 
      495                            .dwattr $C$DW$29, DW_AT_accessibility(DW_ACCESS_public)
      496                            .dwattr $C$DW$29, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\source\ti\devices\cc
@@ -598,10 +598,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      547                            .dwattr $C$DW$34, DW_AT_decl_line(0x7c)
      548                            .dwattr $C$DW$34, DW_AT_decl_column(0x25)
      549                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   11
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   11
 
      550                    $C$DW$35        .dwtag  DW_TAG_member
      551                            .dwattr $C$DW$35, DW_AT_type(*$C$DW$T$41)
@@ -658,10 +658,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      602                            .dwattr $C$DW$40, DW_AT_name("ReservedLocation4")
      603                            .dwattr $C$DW$40, DW_AT_TI_symbol_name("ReservedLocation4")
      604                            .dwattr $C$DW$40, DW_AT_data_member_location[DW_OP_plus_uconst 0x30]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   12
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   12
 
      605                            .dwattr $C$DW$40, DW_AT_accessibility(DW_ACCESS_public)
      606                            .dwattr $C$DW$40, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\source\ti\devices\cc
@@ -718,10 +718,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      657                            .dwattr $C$DW$45, DW_AT_decl_line(0x87)
      658                            .dwattr $C$DW$45, DW_AT_decl_column(0x25)
      659                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   13
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   13
 
      660                    $C$DW$46        .dwtag  DW_TAG_member
      661                            .dwattr $C$DW$46, DW_AT_type(*$C$DW$T$59)
@@ -778,10 +778,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      712                            .dwattr $C$DW$50, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
      713                            .dwattr $C$DW$50, DW_AT_accessibility(DW_ACCESS_public)
      714                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   14
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   14
 
      715                            .dwendtag $C$DW$T$63
      716                    
@@ -838,10 +838,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      767                            .dwattr $C$DW$55, DW_AT_name("CC13X0_LAUNCHXL_ADC2")
      768                            .dwattr $C$DW$55, DW_AT_const_value(0x02)
      769                            .dwattr $C$DW$55, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\examples\rtos\CC1310
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   15
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   15
 
      770                            .dwattr $C$DW$55, DW_AT_decl_line(0x135)
      771                            .dwattr $C$DW$55, DW_AT_decl_column(0x05)
@@ -898,10 +898,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      822                    $C$DW$63        .dwtag  DW_TAG_enumerator
      823                            .dwattr $C$DW$63, DW_AT_name("CC13X0_LAUNCHXL_ADCVDDS")
      824                            .dwattr $C$DW$63, DW_AT_const_value(0x0a)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   16
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   16
 
      825                            .dwattr $C$DW$63, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\examples\rtos\CC1310
      826                            .dwattr $C$DW$63, DW_AT_decl_line(0x13d)
@@ -958,10 +958,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      877                            .dwattr $C$DW$T$175, DW_AT_decl_line(0xd3)
      878                            .dwattr $C$DW$T$175, DW_AT_decl_column(0x03)
      879                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   17
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   17
 
      880                    
      881                    $C$DW$T$176     .dwtag  DW_TAG_enumeration_type
@@ -1018,10 +1018,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      932                    
      933                    $C$DW$74        .dwtag  DW_TAG_enumerator
      934                            .dwattr $C$DW$74, DW_AT_name("CC13X0_LAUNCHXL_GPTIMER3B")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   18
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   18
 
      935                            .dwattr $C$DW$74, DW_AT_const_value(0x07)
      936                            .dwattr $C$DW$74, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\examples\rtos\CC1310
@@ -1078,10 +1078,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
      987                            .dwattr $C$DW$79, DW_AT_const_value(0x03)
      988                            .dwattr $C$DW$79, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\examples\rtos\CC1310
      989                            .dwattr $C$DW$79, DW_AT_decl_line(0x10f)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   19
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   19
 
      990                            .dwattr $C$DW$79, DW_AT_decl_column(0x05)
      991                    
@@ -1138,10 +1138,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1042                    
     1043                    
     1044                    $C$DW$T$182     .dwtag  DW_TAG_enumeration_type
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   20
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   20
 
     1045                            .dwattr $C$DW$T$182, DW_AT_name("CC13X0_LAUNCHXL_PWM")
     1046                            .dwattr $C$DW$T$182, DW_AT_byte_size(0x01)
@@ -1198,10 +1198,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1097                            .dwattr $C$DW$90, DW_AT_name("CC13X0_LAUNCHXL_PWM7")
     1098                            .dwattr $C$DW$90, DW_AT_const_value(0x07)
     1099                            .dwattr $C$DW$90, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\examples\rtos\CC1310
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   21
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   21
 
     1100                            .dwattr $C$DW$90, DW_AT_decl_line(0x120)
     1101                            .dwattr $C$DW$90, DW_AT_decl_column(0x05)
@@ -1258,10 +1258,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1152                    
     1153                    $C$DW$T$185     .dwtag  DW_TAG_typedef
     1154                            .dwattr $C$DW$T$185, DW_AT_name("CC13X0_LAUNCHXL_SPIName")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   22
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   22
 
     1155                            .dwattr $C$DW$T$185, DW_AT_type(*$C$DW$T$184)
     1156                            .dwattr $C$DW$T$185, DW_AT_language(DW_LANG_C)
@@ -1318,10 +1318,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1207                            .dwattr $C$DW$98, DW_AT_decl_line(0xf2)
     1208                            .dwattr $C$DW$98, DW_AT_decl_column(0x05)
     1209                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   23
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   23
 
     1210                            .dwattr $C$DW$T$188, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\examples\rtos\CC1
     1211                            .dwattr $C$DW$T$188, DW_AT_decl_line(0xef)
@@ -1378,10 +1378,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1262                            .dwattr $C$DW$101, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1263                            .dwattr $C$DW$101, DW_AT_accessibility(DW_ACCESS_public)
     1264                            .dwattr $C$DW$101, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/d
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   24
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   24
 
     1265                            .dwattr $C$DW$101, DW_AT_decl_line(0x5c)
     1266                            .dwattr $C$DW$101, DW_AT_decl_column(0x0e)
@@ -1438,10 +1438,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1317                            .dwattr $C$DW$105, DW_AT_name("arg")
     1318                            .dwattr $C$DW$105, DW_AT_TI_symbol_name("arg")
     1319                            .dwattr $C$DW$105, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   25
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   25
 
     1320                            .dwattr $C$DW$105, DW_AT_accessibility(DW_ACCESS_public)
     1321                            .dwattr $C$DW$105, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/d
@@ -1498,10 +1498,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1372                            .dwattr $C$DW$T$70, DW_AT_byte_size(0x24)
     1373                    $C$DW$108       .dwtag  DW_TAG_member
     1374                            .dwattr $C$DW$108, DW_AT_type(*$C$DW$T$19)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   26
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   26
 
     1375                            .dwattr $C$DW$108, DW_AT_name("dummy")
     1376                            .dwattr $C$DW$108, DW_AT_TI_symbol_name("dummy")
@@ -1558,10 +1558,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1427                            .dwattr $C$DW$111, DW_AT_decl_line(0x73)
     1428                            .dwattr $C$DW$111, DW_AT_decl_column(0x10)
     1429                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   27
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   27
 
     1430                    $C$DW$112       .dwtag  DW_TAG_member
     1431                            .dwattr $C$DW$112, DW_AT_type(*$C$DW$T$65)
@@ -1618,10 +1618,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1482                            .dwattr $C$DW$T$198, DW_AT_decl_column(0x03)
     1483                    
     1484                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   28
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   28
 
     1485                    $C$DW$T$73      .dwtag  DW_TAG_union_type
     1486                            .dwattr $C$DW$T$73, DW_AT_name("HwiP_Struct")
@@ -1678,10 +1678,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1537                            .dwattr $C$DW$118, DW_AT_name("prev")
     1538                            .dwattr $C$DW$118, DW_AT_TI_symbol_name("prev")
     1539                            .dwattr $C$DW$118, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   29
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   29
 
     1540                            .dwattr $C$DW$118, DW_AT_accessibility(DW_ACCESS_public)
     1541                            .dwattr $C$DW$118, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
@@ -1738,10 +1738,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1592                            .dwattr $C$DW$T$78, DW_AT_decl_column(0x10)
     1593                            .dwendtag $C$DW$T$78
     1594                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   30
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   30
 
     1595                    $C$DW$T$199     .dwtag  DW_TAG_typedef
     1596                            .dwattr $C$DW$T$199, DW_AT_name("List_List")
@@ -1798,10 +1798,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1647                            .dwattr $C$DW$123, DW_AT_TI_symbol_name("callbackFxn")
     1648                            .dwattr $C$DW$123, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     1649                            .dwattr $C$DW$123, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   31
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   31
 
     1650                            .dwattr $C$DW$123, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/P
     1651                            .dwattr $C$DW$123, DW_AT_decl_line(0x2aa)
@@ -1858,10 +1858,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1702                            .dwattr $C$DW$T$94, DW_AT_byte_size(0x14)
     1703                    $C$DW$126       .dwtag  DW_TAG_member
     1704                            .dwattr $C$DW$126, DW_AT_type(*$C$DW$T$76)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   32
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   32
 
     1705                            .dwattr $C$DW$126, DW_AT_name("link")
     1706                            .dwattr $C$DW$126, DW_AT_TI_symbol_name("link")
@@ -1918,10 +1918,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1757                    $C$DW$T$97      .dwtag  DW_TAG_structure_type
     1758                            .dwattr $C$DW$T$97, DW_AT_name("RingBuf_Object")
     1759                            .dwattr $C$DW$T$97, DW_AT_byte_size(0x18)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   33
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   33
 
     1760                    $C$DW$130       .dwtag  DW_TAG_member
     1761                            .dwattr $C$DW$130, DW_AT_type(*$C$DW$T$95)
@@ -1978,10 +1978,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1812                            .dwattr $C$DW$135, DW_AT_name("maxCount")
     1813                            .dwattr $C$DW$135, DW_AT_TI_symbol_name("maxCount")
     1814                            .dwattr $C$DW$135, DW_AT_data_member_location[DW_OP_plus_uconst 0x14]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   34
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   34
 
     1815                            .dwattr $C$DW$135, DW_AT_accessibility(DW_ACCESS_public)
     1816                            .dwattr $C$DW$135, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
@@ -2038,10 +2038,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1867                    
     1868                    $C$DW$T$99      .dwtag  DW_TAG_typedef
     1869                            .dwattr $C$DW$T$99, DW_AT_name("SemaphoreP_Mode")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   35
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   35
 
     1870                            .dwattr $C$DW$T$99, DW_AT_type(*$C$DW$T$98)
     1871                            .dwattr $C$DW$T$99, DW_AT_language(DW_LANG_C)
@@ -2098,10 +2098,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1922                            .dwattr $C$DW$140, DW_AT_decl_column(0x05)
     1923                    
     1924                    $C$DW$141       .dwtag  DW_TAG_enumerator
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   36
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   36
 
     1925                            .dwattr $C$DW$141, DW_AT_name("SemaphoreP_FAILURE")
     1926                            .dwattr $C$DW$141, DW_AT_const_value(-1)
@@ -2158,10 +2158,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     1977                            .dwattr $C$DW$T$101, DW_AT_decl_column(0x0f)
     1978                            .dwendtag $C$DW$T$101
     1979                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   37
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   37
 
     1980                    $C$DW$T$132     .dwtag  DW_TAG_typedef
     1981                            .dwattr $C$DW$T$132, DW_AT_name("SemaphoreP_Struct")
@@ -2218,10 +2218,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2032                            .dwattr $C$DW$T$102, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers
     2033                            .dwattr $C$DW$T$102, DW_AT_decl_line(0x70)
     2034                            .dwattr $C$DW$T$102, DW_AT_decl_column(0x10)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   38
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   38
 
     2035                            .dwendtag $C$DW$T$102
     2036                    
@@ -2278,10 +2278,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2087                            .dwattr $C$DW$151, DW_AT_decl_line(0x41)
     2088                            .dwattr $C$DW$151, DW_AT_decl_column(0x0e)
     2089                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   39
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   39
 
     2090                    $C$DW$152       .dwtag  DW_TAG_member
     2091                            .dwattr $C$DW$152, DW_AT_type(*$C$DW$T$103)
@@ -2338,10 +2338,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2142                            .dwattr $C$DW$155, DW_AT_accessibility(DW_ACCESS_public)
     2143                            .dwattr $C$DW$155, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
     2144                            .dwattr $C$DW$155, DW_AT_decl_line(0x1e8)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   40
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   40
 
     2145                            .dwattr $C$DW$155, DW_AT_decl_column(0x12)
     2146                    
@@ -2398,10 +2398,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2197                    $C$DW$161       .dwtag  DW_TAG_member
     2198                            .dwattr $C$DW$161, DW_AT_type(*$C$DW$T$20)
     2199                            .dwattr $C$DW$161, DW_AT_name("rtsPin")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   41
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   41
 
     2200                            .dwattr $C$DW$161, DW_AT_TI_symbol_name("rtsPin")
     2201                            .dwattr $C$DW$161, DW_AT_data_member_location[DW_OP_plus_uconst 0x17]
@@ -2458,10 +2458,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2252                            .dwattr $C$DW$164, DW_AT_decl_column(0x19)
     2253                    
     2254                    $C$DW$165       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   42
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   42
 
     2255                            .dwattr $C$DW$165, DW_AT_type(*$C$DW$T$107)
     2256                            .dwattr $C$DW$165, DW_AT_name("readMode")
@@ -2518,10 +2518,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2307                            .dwattr $C$DW$170, DW_AT_TI_symbol_name("writeCallback")
     2308                            .dwattr $C$DW$170, DW_AT_data_member_location[DW_OP_plus_uconst 0x10]
     2309                            .dwattr $C$DW$170, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   43
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   43
 
     2310                            .dwattr $C$DW$170, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
     2311                            .dwattr $C$DW$170, DW_AT_decl_line(0x22c)
@@ -2578,10 +2578,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2362                            .dwattr $C$DW$175, DW_AT_decl_column(0x19)
     2363                    
     2364                    $C$DW$176       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   44
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   44
 
     2365                            .dwattr $C$DW$176, DW_AT_type(*$C$DW$T$119)
     2366                            .dwattr $C$DW$176, DW_AT_name("stopBits")
@@ -2638,10 +2638,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2417                            .dwattr $C$DW$181, DW_AT_TI_symbol_name("writeSize")
     2418                            .dwattr $C$DW$181, DW_AT_data_member_location[DW_OP_plus_uconst 0x28]
     2419                            .dwattr $C$DW$181, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   45
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   45
 
     2420                            .dwattr $C$DW$181, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
     2421                            .dwattr $C$DW$181, DW_AT_decl_line(0x240)
@@ -2698,10 +2698,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2472                            .dwattr $C$DW$186, DW_AT_decl_column(0x1b)
     2473                    
     2474                    $C$DW$187       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   46
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   46
 
     2475                            .dwattr $C$DW$187, DW_AT_type(*$C$DW$T$127)
     2476                            .dwattr $C$DW$187, DW_AT_name("readFifoThreshold")
@@ -2758,10 +2758,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2527                            .dwattr $C$DW$192, DW_AT_TI_symbol_name("uartPostFxn")
     2528                            .dwattr $C$DW$192, DW_AT_data_member_location[DW_OP_plus_uconst 0x68]
     2529                            .dwattr $C$DW$192, DW_AT_accessibility(DW_ACCESS_public)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   47
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   47
 
     2530                            .dwattr $C$DW$192, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
     2531                            .dwattr $C$DW$192, DW_AT_decl_line(0x251)
@@ -2818,10 +2818,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2582                            .dwattr $C$DW$197, DW_AT_decl_column(0x1b)
     2583                    
     2584                    $C$DW$198       .dwtag  DW_TAG_member
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   48
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   48
 
     2585                            .dwattr $C$DW$198, DW_AT_type(*$C$DW$T$133)
     2586                            .dwattr $C$DW$198, DW_AT_name("txFifoEmptyClk")
@@ -2878,10 +2878,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2637                            .dwattr $C$DW$200, DW_AT_data_member_location[DW_OP_plus_uconst 0x4]
     2638                            .dwattr $C$DW$200, DW_AT_accessibility(DW_ACCESS_public)
     2639                            .dwattr $C$DW$200, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   49
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   49
 
     2640                            .dwattr $C$DW$200, DW_AT_decl_line(0x2bc)
     2641                            .dwattr $C$DW$200, DW_AT_decl_column(0x1a)
@@ -2938,10 +2938,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2692                    
     2693                    $C$DW$T$149     .dwtag  DW_TAG_pointer_type
     2694                            .dwattr $C$DW$T$149, DW_AT_type(*$C$DW$T$148)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   50
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   50
 
     2695                            .dwattr $C$DW$T$149, DW_AT_address_class(0x20)
     2696                    
@@ -2998,10 +2998,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2747                    $C$DW$207       .dwtag  DW_TAG_enumerator
     2748                            .dwattr $C$DW$207, DW_AT_name("UART_ECHO_ON")
     2749                            .dwattr $C$DW$207, DW_AT_const_value(0x01)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   51
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   51
 
     2750                            .dwattr $C$DW$207, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
     2751                            .dwattr $C$DW$207, DW_AT_decl_line(0x208)
@@ -3058,10 +3058,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2802                            .dwattr $C$DW$212, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/u
     2803                            .dwattr $C$DW$212, DW_AT_decl_line(0x21c)
     2804                            .dwattr $C$DW$212, DW_AT_decl_column(0x05)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   52
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   52
 
     2805                    
     2806                            .dwattr $C$DW$T$126, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers
@@ -3118,10 +3118,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2857                            .dwattr $C$DW$216, DW_AT_data_member_location[DW_OP_plus_uconst 0xc]
     2858                            .dwattr $C$DW$216, DW_AT_accessibility(DW_ACCESS_public)
     2859                            .dwattr $C$DW$216, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   53
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   53
 
     2860                            .dwattr $C$DW$216, DW_AT_decl_line(0x297)
     2861                            .dwattr $C$DW$216, DW_AT_decl_column(0x1a)
@@ -3178,10 +3178,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2912                    
     2913                    $C$DW$222       .dwtag  DW_TAG_member
     2914                            .dwattr $C$DW$222, DW_AT_type(*$C$DW$T$161)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   54
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   54
 
     2915                            .dwattr $C$DW$222, DW_AT_name("writeCancelFxn")
     2916                            .dwattr $C$DW$222, DW_AT_TI_symbol_name("writeCancelFxn")
@@ -3238,10 +3238,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     2967                    
     2968                    $C$DW$226       .dwtag  DW_TAG_enumerator
     2969                            .dwattr $C$DW$226, DW_AT_name("UART_LEN_8")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   55
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   55
 
     2970                            .dwattr $C$DW$226, DW_AT_const_value(0x03)
     2971                            .dwattr $C$DW$226, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
@@ -3298,10 +3298,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3022                            .dwattr $C$DW$T$120, DW_AT_byte_size(0x01)
     3023                    $C$DW$229       .dwtag  DW_TAG_enumerator
     3024                            .dwattr $C$DW$229, DW_AT_name("UART_PAR_NONE")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   56
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   56
 
     3025                            .dwattr $C$DW$229, DW_AT_const_value(0x00)
     3026                            .dwattr $C$DW$229, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
@@ -3358,10 +3358,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3077                            .dwattr $C$DW$234, DW_AT_name("readMode")
     3078                            .dwattr $C$DW$234, DW_AT_TI_symbol_name("readMode")
     3079                            .dwattr $C$DW$234, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   57
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   57
 
     3080                            .dwattr $C$DW$234, DW_AT_accessibility(DW_ACCESS_public)
     3081                            .dwattr $C$DW$234, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
@@ -3418,10 +3418,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3132                            .dwattr $C$DW$239, DW_AT_decl_line(0x23c)
     3133                            .dwattr $C$DW$239, DW_AT_decl_column(0x15)
     3134                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   58
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   58
 
     3135                    $C$DW$240       .dwtag  DW_TAG_member
     3136                            .dwattr $C$DW$240, DW_AT_type(*$C$DW$T$113)
@@ -3478,10 +3478,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3187                            .dwattr $C$DW$245, DW_AT_name("dataLength")
     3188                            .dwattr $C$DW$245, DW_AT_TI_symbol_name("dataLength")
     3189                            .dwattr $C$DW$245, DW_AT_data_member_location[DW_OP_plus_uconst 0x1c]
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   59
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   59
 
     3190                            .dwattr $C$DW$245, DW_AT_accessibility(DW_ACCESS_public)
     3191                            .dwattr $C$DW$245, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/U
@@ -3538,10 +3538,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3242                    
     3243                    $C$DW$T$112     .dwtag  DW_TAG_enumeration_type
     3244                            .dwattr $C$DW$T$112, DW_AT_name("UART_ReturnMode_")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   60
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   60
 
     3245                            .dwattr $C$DW$T$112, DW_AT_byte_size(0x01)
     3246                    $C$DW$249       .dwtag  DW_TAG_enumerator
@@ -3598,10 +3598,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3297                            .dwattr $C$DW$T$119, DW_AT_name("UART_STOP")
     3298                            .dwattr $C$DW$T$119, DW_AT_type(*$C$DW$T$118)
     3299                            .dwattr $C$DW$T$119, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   61
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   61
 
     3300                            .dwattr $C$DW$T$119, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers
     3301                            .dwattr $C$DW$T$119, DW_AT_decl_line(0x21f)
@@ -3658,10 +3658,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3352                            .dwattr $C$DW$T$122, DW_AT_decl_column(0x0e)
     3353                            .dwendtag $C$DW$T$122
     3354                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   62
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   62
 
     3355                    $C$DW$T$123     .dwtag  DW_TAG_typedef
     3356                            .dwattr $C$DW$T$123, DW_AT_name("UART_Status")
@@ -3718,10 +3718,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3407                    $C$DW$T$35      .dwtag  DW_TAG_pointer_type
     3408                            .dwattr $C$DW$T$35, DW_AT_type(*$C$DW$T$34)
     3409                            .dwattr $C$DW$T$35, DW_AT_address_class(0x20)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   63
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   63
 
     3410                    
     3411                    $C$DW$T$53      .dwtag  DW_TAG_typedef
@@ -3778,10 +3778,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3462                    
     3463                    $C$DW$T$51      .dwtag  DW_TAG_typedef
     3464                            .dwattr $C$DW$T$51, DW_AT_name("FPTR_RESERVED4_T")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   64
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   64
 
     3465                            .dwattr $C$DW$T$51, DW_AT_type(*$C$DW$T$50)
     3466                            .dwattr $C$DW$T$51, DW_AT_language(DW_LANG_C)
@@ -3838,10 +3838,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3517                            .dwattr $C$DW$T$59, DW_AT_type(*$C$DW$T$55)
     3518                            .dwattr $C$DW$T$59, DW_AT_language(DW_LANG_C)
     3519                            .dwattr $C$DW$T$59, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\source\ti\devices\
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   65
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   65
 
     3520                            .dwattr $C$DW$T$59, DW_AT_decl_line(0x6b)
     3521                            .dwattr $C$DW$T$59, DW_AT_decl_column(0x19)
@@ -3898,10 +3898,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3572                    $C$DW$T$111     .dwtag  DW_TAG_typedef
     3573                            .dwattr $C$DW$T$111, DW_AT_name("UART_Callback")
     3574                            .dwattr $C$DW$T$111, DW_AT_type(*$C$DW$T$110)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   66
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   66
 
     3575                            .dwattr $C$DW$T$111, DW_AT_language(DW_LANG_C)
     3576                            .dwattr $C$DW$T$111, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers
@@ -3958,10 +3958,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3627                            .dwattr $C$DW$T$161, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers
     3628                            .dwattr $C$DW$T$161, DW_AT_decl_line(0x285)
     3629                            .dwattr $C$DW$T$161, DW_AT_decl_column(0x10)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   67
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   67
 
     3630                    
     3631                    
@@ -4018,10 +4018,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3682                    $C$DW$T$4       .dwtag  DW_TAG_base_type
     3683                            .dwattr $C$DW$T$4, DW_AT_encoding(DW_ATE_boolean)
     3684                            .dwattr $C$DW$T$4, DW_AT_name("bool")
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   68
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   68
 
     3685                            .dwattr $C$DW$T$4, DW_AT_byte_size(0x01)
     3686                    
@@ -4078,10 +4078,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3737                            .dwattr $C$DW$T$83, DW_AT_type(*$C$DW$T$20)
     3738                            .dwattr $C$DW$T$83, DW_AT_language(DW_LANG_C)
     3739                            .dwattr $C$DW$T$83, DW_AT_decl_file("C:/ti/simplelink_cc13x0_sdk_1_50_00_08/source/ti/drivers/
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   69
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   69
 
     3740                            .dwattr $C$DW$T$83, DW_AT_decl_line(0x226)
     3741                            .dwattr $C$DW$T$83, DW_AT_decl_column(0x11)
@@ -4138,10 +4138,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3792                            .dwattr $C$DW$T$9, DW_AT_encoding(DW_ATE_unsigned)
     3793                            .dwattr $C$DW$T$9, DW_AT_name("unsigned short")
     3794                            .dwattr $C$DW$T$9, DW_AT_byte_size(0x02)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   70
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   70
 
     3795                    
     3796                    $C$DW$T$37      .dwtag  DW_TAG_typedef
@@ -4198,10 +4198,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3847                            .dwattr $C$DW$T$91, DW_AT_type(*$C$DW$T$90)
     3848                            .dwattr $C$DW$T$91, DW_AT_language(DW_LANG_C)
     3849                    $C$DW$272       .dwtag  DW_TAG_formal_parameter
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   71
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   71
 
     3850                            .dwattr $C$DW$272, DW_AT_type(*$C$DW$T$88)
     3851                    
@@ -4258,10 +4258,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3902                            .dwattr $C$DW$T$151, DW_AT_language(DW_LANG_C)
     3903                            .dwattr $C$DW$T$151, DW_AT_decl_file("C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include
     3904                            .dwattr $C$DW$T$151, DW_AT_decl_line(0x4a)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   72
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   72
 
     3905                            .dwattr $C$DW$T$151, DW_AT_decl_column(0x17)
     3906                    
@@ -4318,10 +4318,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     3957                    $C$DW$T$158     .dwtag  DW_TAG_pointer_type
     3958                            .dwattr $C$DW$T$158, DW_AT_type(*$C$DW$T$157)
     3959                            .dwattr $C$DW$T$158, DW_AT_address_class(0x20)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   73
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   73
 
     3960                    
     3961                    $C$DW$T$159     .dwtag  DW_TAG_typedef
@@ -4378,10 +4378,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4012                            .dwattr $C$DW$T$11, DW_AT_byte_size(0x04)
     4013                    
     4014                    $C$DW$T$250     .dwtag  DW_TAG_typedef
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   74
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   74
 
     4015                            .dwattr $C$DW$T$250, DW_AT_name("__UINT32")
     4016                            .dwattr $C$DW$T$250, DW_AT_type(*$C$DW$T$11)
@@ -4438,10 +4438,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4067                            .dwattr $C$DW$T$24, DW_AT_type(*$C$DW$T$23)
     4068                            .dwattr $C$DW$T$24, DW_AT_language(DW_LANG_C)
     4069                            .dwattr $C$DW$T$24, DW_AT_decl_file("C:\ti\simplelink_cc13x0_sdk_1_50_00_08\source\ti\devices\
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   75
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   75
 
     4070                            .dwattr $C$DW$T$24, DW_AT_decl_line(0x3e)
     4071                            .dwattr $C$DW$T$24, DW_AT_decl_column(0x19)
@@ -4498,10 +4498,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4122                            .dwendtag $C$DW$T$29
     4123                    
     4124                    $C$DW$T$30      .dwtag  DW_TAG_pointer_type
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   76
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   76
 
     4125                            .dwattr $C$DW$T$30, DW_AT_type(*$C$DW$T$29)
     4126                            .dwattr $C$DW$T$30, DW_AT_address_class(0x20)
@@ -4558,10 +4558,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4177                            .dwendtag $C$DW$T$43
     4178                    
     4179                    $C$DW$T$44      .dwtag  DW_TAG_pointer_type
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   77
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   77
 
     4180                            .dwattr $C$DW$T$44, DW_AT_type(*$C$DW$T$43)
     4181                            .dwattr $C$DW$T$44, DW_AT_address_class(0x20)
@@ -4618,10 +4618,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4232                            .dwattr $C$DW$T$253, DW_AT_name("uint_fast8_t")
     4233                            .dwattr $C$DW$T$253, DW_AT_type(*$C$DW$T$19)
     4234                            .dwattr $C$DW$T$253, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   78
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   78
 
     4235                            .dwattr $C$DW$T$253, DW_AT_decl_file("C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include
     4236                            .dwattr $C$DW$T$253, DW_AT_decl_line(0x46)
@@ -4678,10 +4678,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4287                            .dwattr $C$DW$T$257, DW_AT_name("int_least64_t")
     4288                            .dwattr $C$DW$T$257, DW_AT_type(*$C$DW$T$255)
     4289                            .dwattr $C$DW$T$257, DW_AT_language(DW_LANG_C)
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   79
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   79
 
     4290                            .dwattr $C$DW$T$257, DW_AT_decl_file("C:/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.4.LTS/include
     4291                            .dwattr $C$DW$T$257, DW_AT_decl_line(0x40)
@@ -4738,10 +4738,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4342                            .dwattr $C$DW$T$16, DW_AT_byte_size(0x04)
     4343                    
     4344                    $C$DW$T$17      .dwtag  DW_TAG_base_type
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   80
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   80
 
     4345                            .dwattr $C$DW$T$17, DW_AT_encoding(DW_ATE_float)
     4346                            .dwattr $C$DW$T$17, DW_AT_name("double")
@@ -4798,10 +4798,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4397                    
     4398                    $C$DW$CIE       .dwcie 14
     4399                            .dwcfi  cfa_register, 13
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   81
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   81
 
     4400                            .dwcfi  cfa_offset, 0
     4401                            .dwcfi  same_value, 4
@@ -4858,10 +4858,10 @@ C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   
     4452                            .dwattr $C$DW$305, DW_AT_name("V6")
     4453                            .dwattr $C$DW$305, DW_AT_location[DW_OP_reg9]
     4454                    
-TI ARM Assembler PC v16.9.4 Mon Mar 05 22:11:05 2018
+TI ARM Assembler PC v16.9.4 Tue Apr 03 11:15:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Kevin\AppData\Local\Temp\{2F94EB6E-4B2C-42DD-BF6F-6E7AC25C9EF2} PAGE   82
+C:\Users\Kevin\AppData\Local\Temp\{5D9B6B39-87AD-40C8-B471-E8145242CACE} PAGE   82
 
     4455                    $C$DW$306       .dwtag  DW_TAG_TI_assign_register
     4456                            .dwattr $C$DW$306, DW_AT_name("V7")

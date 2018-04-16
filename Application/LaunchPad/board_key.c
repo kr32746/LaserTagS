@@ -85,7 +85,9 @@ static Board_Key_keysPressedCB_t appKeyChangeHandler = NULL;
 static PIN_Config keyPinTable[] = {
       Board_BUTTON0 | PIN_INPUT_EN | PIN_PULLUP | PIN_IRQ_NEGEDGE,
       Board_BUTTON1 | PIN_INPUT_EN | PIN_PULLUP | PIN_IRQ_NEGEDGE,
-      Board_DIO25_ANALOG   | PIN_INPUT_EN | PIN_NOPULL | PIN_IRQ_POSEDGE,
+      Board_DIO25_ANALOG   | PIN_HYSTERESIS | PIN_NOPULL | PIN_IRQ_POSEDGE,
+//      Board_DIO25_ANALOG   | PIN_HYSTERESIS | PIN_PULLDOWN | PIN_IRQ_POSEDGE,
+//      Board_DIO25_ANALOG   | PIN_INPUT_EN | PIN_PULLDOWN | PIN_IRQ_POSEDGE,
       PIN_TERMINATE /* Terminate list */
     };
 

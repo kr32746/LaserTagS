@@ -130,7 +130,7 @@
 /* NV Item ID - OAD information */
 #define SSF_NV_OAD_ID 0x0007
 
-#define HIT_FLASH_TIMEOUT_VALUE 3000
+#define HIT_FLASH_TIMEOUT_VALUE 1300
 
 /* Maximum number of black list entries */
 #define SSF_MAX_BLACKLIST_ENTRIES 10
@@ -328,6 +328,12 @@ void Ssf_init(void *sem)
         /* Right key is pressed on power up, clear all NV */
         Ssf_clearAllNVItems();
     }
+    // UCF team 8 always start up fresh
+    else
+    {
+        /* Always  clear all NV */
+        Ssf_clearAllNVItems();
+    }
 
 #ifndef POWER_MEAS
     /* Initialize the LCD */
@@ -335,6 +341,7 @@ void Ssf_init(void *sem)
 
     /* Initialize the LEDs */
     Board_Led_initialize();
+    Board_Led_control(board_led_type_LED1, board_led_state_BLINKING);
 #endif /* POWER_MEAS */
 
     if((pNV != NULL) && (pNV->readItem != NULL))
@@ -463,7 +470,7 @@ void Ssf_processEvents(void)
                 // send action control pulse
                 Board_Led_control(board_led_type_ACTION, board_led_state_BLINK);
                 // Set green led flashing
-                Board_Led_control(board_led_type_LED2, board_led_state_BLINKING);
+                Board_Led_control(board_led_type_LED1, board_led_state_BLINKING);
                 // start flashing timer
                 Timer_start(&hitFlashClkStruct);
 
@@ -593,8 +600,10 @@ void Ssf_networkUpdate(bool rejoined,
             started = true;
         }
 
+// UCF team 8
+// changed LED to off to save power when connected, blinking till connect
 #ifndef POWER_MEAS
-        Board_Led_control(board_led_type_LED1, board_led_state_ON);
+        Board_Led_control(board_led_type_LED1, board_led_state_OFF);
 #endif
         led1State = true;
     }
@@ -1580,7 +1589,7 @@ static void processHitFlashCallback(UArg a0)
     (void)a0; /* Parameter is not used */
 
     // this may be to high priority may want to change to event
-    Board_Led_control(board_led_type_LED2, board_led_state_OFF);
+    Board_Led_control(board_led_type_LED1, board_led_state_OFF);
 
 }
 
